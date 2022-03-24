@@ -5,7 +5,6 @@ services:
         depends_on:
             - ui
             - proxy
-
     ui:
         build:
           context: ../ui
